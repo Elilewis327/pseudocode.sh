@@ -23,6 +23,7 @@ The difference between `Pseudocode` and the existing methods of using scattered 
 ## Project layout:
 This is the basic outline of a `Pseudocode` project:
 
+```
 |- .git/ # `Pseudocode` should be committed.
 |- README.md
 |- pseudocode/ # `Pseudocode` content
@@ -37,7 +38,7 @@ This is the basic outline of a `Pseudocode` project:
 |-- go.sum
 |-- Makefile
 |-- ...
-
+```
 
 ## A couple of base rules:
 1) Every PS file will generate 1 (ONE) at MOST target language files.
